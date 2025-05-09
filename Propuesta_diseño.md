@@ -1,30 +1,30 @@
 # Propuesta diseño
 
-## Justificación del proyecto y revisión bibliográfica.
+### Justificación del proyecto y revisión bibliográfica
 
-## Descripción y síntesis del problema.
-
-keylor ...
-
-## Gestión de los requerimientos.
+### Descripción y síntesis del problema
 
 keylor ...
 
-## Vista operacional del sistema.
-
-## Vista funcional del sistema.
-
-## Arquitectura del sistema propuesto.
+### Gestión de los requerimientos
 
 keylor ...
 
-## Análisis de dependencias
+### Vista operacional del sistema
+
+### Vista funcional del sistema
+
+### Arquitectura del sistema propuesto
 
 keylor ...
 
-## Estrategia de integración de la solución.
+### Análisis de dependencias
+
 keylor ...
 
-## Planeamiento de la ejecución.
+### Estrategia de integración de la solución
+keylor ...
 
-## Conclusiones o aspectos a resaltar de la propuesta presentada.
+### Planeamiento de la ejecución
+
+### Conclusiones o aspectos a resaltar de la propuesta presentada.
