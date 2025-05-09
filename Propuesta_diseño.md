@@ -4,7 +4,11 @@
 
 ## Descripción y síntesis del problema.
 
+keylor ...
+
 ## Gestión de los requerimientos.
+
+keylor ...
 
 ## Vista operacional del sistema.
 
@@ -12,9 +16,14 @@
 
 ## Arquitectura del sistema propuesto.
 
+keylor ...
+
 ## Análisis de dependencias
 
+keylor ...
+
 ## Estrategia de integración de la solución.
+keylor ...
 
 ## Planeamiento de la ejecución.
 
