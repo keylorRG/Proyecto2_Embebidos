@@ -47,18 +47,20 @@ A nivel del entorno de trabajo Yocto Proyect, se tiene las siguientes dependenci
 
 Meta-layers principales:
 
-Meta-raspberry pi: anñade los drives y dependencias necesarias para correr la imagen en dicho dispositivo.
+--Meta-raspberry pi: anñade los drives y dependencias necesarias para correr la imagen en dicho dispositivo.
 
-Meta-poky: proporcionan el sistema base de Linux, incluyen herramientas esenciales del sistema y bibliotecas base, además de que proveen el framework BitBake para la construcción de imágenes.
+--Meta-poky: proporcionan el sistema base de Linux, incluyen herramientas esenciales del sistema y bibliotecas base, además de que proveen el framework BitBake para la construcción de imágenes.
 
-Meta-openembedded ---> meta-openembedded/meta-oe, meta-openembedded/meta-python, meta-openembedded/meta-multimedia: incluye dependencias generales para multimedia e IA y ofrece bibliotecas de utilidad necesarias para procesamiento de imagen. Así coo herramientas específicas para python como open cv.
+--Meta-tensorflow-light: paquete para usar tensor flow light. 
 
-Meta-networking: dispone de servicios de conexión.
+--Meta-openembedded ---> meta-openembedded/meta-oe, meta-openembedded/meta-python, meta-openembedded/meta-multimedia: incluye dependencias generales para multimedia e IA y ofrece bibliotecas de utilidad necesarias para procesamiento de imagen. Así coo herramientas específicas para python como open cv.
 
-Meta-tensorflow-light: paquete para usar tensor flow light. 
+--Meta-networking: dispone de servicios de conexión.
+  - Conexión ssh o env+iode datos wifi-
 
-Meta-personalizada: aplicación específica que procesa las clasificaciones, ya sea almacenarlas localemtne o enviarlas a un sever remoto. 
-
+--Meta-personalizada: aplicación específica que procesa las clasificaciones, ya sea almacenarlas localemtne o enviarlas a un sever remoto. 
+  -Aplicación de uso específico )python, por ejemplo). 
+  
 A nivel de archivo local.config, es necesario llamar las dependencias necesarias relacionadas a python, como python3-opencv. 
 
 
