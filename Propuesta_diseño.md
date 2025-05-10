@@ -26,8 +26,11 @@ La empresa contratista necesita el diseño de un sistema embebido que se pueda i
 Requerimientos de hardware específicos: 
 
 Unidad de procesamiento: contar con una Raspberry Pi con suficiente poder computacional para realizar la inferencia dadas las imagenes o video, lo suficientemente rápido sin demasiada latencia y así poder realizar un buen análisis de los estimulos dentro del cine. 
+
 Cámara: contar con una cámara de tamaño reducido para cumplir con el requerimiento REQ-06. Debe contar con técnología infrarroja para un ambiente de baja luz, como lo suelen ser las salas de cine. 
+
 Alimentación: raspberry Pi 27W USB-C Power Supply (oficial).
+
 Disipación de calor: es necesario verificar la temperatura de sistema durante funcionamiento, en caso de requerirlo, implementar un disipador de calor. 
 
 ### Vista operacional del sistema
