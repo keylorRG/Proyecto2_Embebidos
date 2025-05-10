@@ -56,7 +56,7 @@ Meta-layers principales:
 --Meta-openembedded ---> meta-openembedded/meta-oe, meta-openembedded/meta-python, meta-openembedded/meta-multimedia: incluye dependencias generales para multimedia e IA y ofrece bibliotecas de utilidad necesarias para procesamiento de imagen. Así coo herramientas específicas para python como open cv.
 
 --Meta-networking: dispone de servicios de conexión.
-  - Conexión ssh o env+iode datos wifi-
+  - Conexión ssh o envío de datos wifi.
 
 --Meta-personalizada: aplicación específica que procesa las clasificaciones, ya sea almacenarlas localemtne o enviarlas a un sever remoto. 
   - Aplicación de uso específico (python, por ejemplo). 
@@ -65,7 +65,7 @@ A nivel de archivo local.config, es necesario llamar las dependencias necesarias
 
 
 ### Estrategia de integración de la solución
-keylor ...
+
 
 ### Planeamiento de la ejecución
 
