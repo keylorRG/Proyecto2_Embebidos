@@ -70,24 +70,29 @@ A nivel de archivo local.config, es necesario llamar las dependencias necesarias
 
 Fase de desarrollo
 
-1. Desarrollo de la imagen base
+1. Desarrollo de la imagen base:
+   
 Se  integran la lista de dependencias en el flujo de trabajo de Yocto Proyect para la construcción de la imagen a la medida para la Raspberry Pi 5, contemplando las meta-layers, modificaciones en el archivo local.conf así como las dependencias necesarias para tener los drivers para la cámara.
 
-2. Desarrollo de la aplicación
-Con los resultados del moldelo de clasificación, los resultados deben ser procesados y almacenados local o remotamente. Debe existir un layer personalizada para este caso.
+3. Desarrollo de la aplicación:
+   
+Con los resultados del modelo de clasificación, los resultados deben ser procesados y almacenados local o remotamente. Debe existir un layer personalizada para este caso.
 
-3. Building de la imagen
+4. Building de la imagen:
+   
 Se construye la imagen y se solucionan los errores de construcción.
 
-4. Verificación del modelo y aplicación
+5. Verificación del modelo y aplicación:
+   
 Verifcar y validar la correcta clasficación de emociones para un video de prueba cargado localemnte en la imagen. Si existen errores, regresar a punto 1 o 2. 
 
-5. Cargado de la imagen y conexiones físicas
+6. Cargado de la imagen y conexiones físicas:
+   
 Se carga la imagen en la rasberry Pi 5. Además se hace la conexión de la cámara y se prueba con la fuente de alimentación. 
 
-6. Validar que la imagen se cargue correctamente sobre la Raspberry Pi 5 y detecte correctamente el periférico de la cámara.
+8. Validar que la imagen se cargue correctamente sobre la Raspberry Pi 5 y detecte correctamente el periférico de la cámara.
 
-7. Comprobar que el modelo siga clasificando correctamente, esta vez, con la fuente de video de la cámara y validar la aplicación. Si existen errores iterar al proceso 2,3 y 5, para repetir la prueba de este punto 7. 
+9. Comprobar que el modelo siga clasificando correctamente, esta vez, con la fuente de video de la cámara y validar la aplicación. Si existen errores iterar a los puntos 2,3 y 5, para repetir la prueba de este punto 7. 
 
 
 ### Planeamiento de la ejecución
