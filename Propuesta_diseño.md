@@ -59,7 +59,7 @@ Meta-layers principales:
   - Conexión ssh o env+iode datos wifi-
 
 --Meta-personalizada: aplicación específica que procesa las clasificaciones, ya sea almacenarlas localemtne o enviarlas a un sever remoto. 
-  -Aplicación de uso específico )python, por ejemplo). 
+  - Aplicación de uso específico (python, por ejemplo). 
   
 A nivel de archivo local.config, es necesario llamar las dependencias necesarias relacionadas a python, como python3-opencv. 
 
