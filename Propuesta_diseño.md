@@ -44,8 +44,17 @@ Disipación de calor: es necesario verificar la temperatura de sistema durante f
 ### Análisis de dependencias
 
 A nivel del entorno de trabajo Yocto Proyect, se tiene las siguientes dependencias: 
-Meta-layers principales: meta-raspberry pi, meta-poky, meta-openembedded-oe, meta-openembedded, en conjunto con: meta-openembedded/meta-python, meta-openembedded/meta-multimedia, meta-networking, meta-tensorflow-light. 
-A nivel de archivo local.config, es necesario llamar las dependencias necesarias relacioandas a python, como python3-opencv. 
+
+Meta-layers principales:
+Meta-raspberry pi: anñade los drives y dependencias necesarias para correr la imagen en dicho dispositivo.
+meta-poky: proporcionan el sistema base de Linux, incluyen herramientas esenciales del sistema y bibliotecas base, además de que proveen el framework BitBake para la construcción de imágenes.
+Meta-openembedded-oe, meta-openembedded, en conjunto con: meta-openembedded/meta-python, meta-openembedded/meta-multimedia: incluye dependencias generales para multimedia e IA y ofrece bibliotecas de utilidad necesarias para procesamiento de imagen. Así coo herramientas específicas para python como open cv.
+
+Meta-networking: dispone de servicios de conexión.
+
+Meta-tensorflow-light: paquete para usar tensor flow light. 
+
+A nivel de archivo local.config, es necesario llamar las dependencias necesarias relacionadas a python, como python3-opencv. 
 
 
 ### Estrategia de integración de la solución
