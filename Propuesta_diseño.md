@@ -21,8 +21,8 @@ La empresa contratista necesita el diseño de un sistema embebido que se pueda i
 | REQ-05  | Técnica      | El sistema debe integrar OpenCV y TensorFlow Lite para visión por computador y aprendizaje automático.                            | Permite una implementación eficiente en hardware limitado.                                             | Alta      |
 | REQ-06  | No funcional | Los nodos deben estar camuflados en los asientos del cine y no interferir con la proyección.                                      | Asegura que el sistema no altere la naturalidad del entorno ni del comportamiento del espectador.     | Media     |
 | REQ-07  | Técnica      | Se debe sintetizar una imagen de Linux personalizada con Yocto Project que incluya todas las dependencias requeridas.             | Facilita el despliegue del sistema en Raspberry Pi de forma controlada y reproducible.                | Alta      |
-| REQ-08  | Funcional    | El sistema debe tener una manera de acceder a su configuración remotamente.            | Alta      | 
-          | Permite establecer una conexión remota y transferir resultados para el posterior análisis. 
+| REQ-08  | Funcional    | El sistema debe tener una manera de acceder a su configuración remotamente.   
+          | Permite establecer una conexión remota y transferir resultados para el posterior análisis.            | Alta      |
 
 ### Vista operacional del sistema
 
