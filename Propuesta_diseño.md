@@ -43,7 +43,10 @@ Disipación de calor: es necesario verificar la temperatura de sistema durante f
 
 ### Análisis de dependencias
 
-keylor ...
+A nivel del entorno de trabajo Yocto Proyect, se tiene las siguientes dependencias: 
+Meta-layers principales: meta-raspberry pi, meta-poky, meta-openembedded-oe, meta-openembedded, en conjunto con: meta-openembedded/meta-python, meta-openembedded/meta-multimedia, meta-networking, meta-tensorflow-light. 
+A nivel de archivo local.config, es necesario llamar las dependencias necesarias relacioandas a python, como python3-opencv. 
+
 
 ### Estrategia de integración de la solución
 keylor ...
