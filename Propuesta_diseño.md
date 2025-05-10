@@ -74,25 +74,25 @@ Fase de desarrollo
    
 Se  integran la lista de dependencias en el flujo de trabajo de Yocto Proyect para la construcción de la imagen a la medida para la Raspberry Pi 5, contemplando las meta-layers, modificaciones en el archivo local.conf así como las dependencias necesarias para tener los drivers para la cámara.
 
-3. Desarrollo de la aplicación:
+2. Desarrollo de la aplicación:
    
 Con los resultados del modelo de clasificación, los resultados deben ser procesados y almacenados local o remotamente. Debe existir un layer personalizada para este caso.
 
-4. Building de la imagen:
+3. Building de la imagen:
    
 Se construye la imagen y se solucionan los errores de construcción.
 
-5. Verificación del modelo y aplicación:
+4. Verificación del modelo y aplicación:
    
 Verifcar y validar la correcta clasficación de emociones para un video de prueba cargado localemnte en la imagen. Si existen errores, regresar a punto 1 o 2. 
 
-6. Cargado de la imagen y conexiones físicas:
+5. Cargado de la imagen y conexiones físicas:
    
 Se carga la imagen en la rasberry Pi 5. Además se hace la conexión de la cámara y se prueba con la fuente de alimentación. 
 
-8. Validar que la imagen se cargue correctamente sobre la Raspberry Pi 5 y detecte correctamente el periférico de la cámara.
+6. Validar que la imagen se cargue correctamente sobre la Raspberry Pi 5 y detecte correctamente el periférico de la cámara.
 
-9. Comprobar que el modelo siga clasificando correctamente, esta vez, con la fuente de video de la cámara y validar la aplicación. Si existen errores iterar a los puntos 2,3 y 5, para repetir la prueba de este punto 7. 
+7. Comprobar que el modelo siga clasificando correctamente, esta vez, con la fuente de video de la cámara y validar la aplicación. Si existen errores iterar a los puntos 2,3 y 5, para repetir la prueba de este punto 7. 
 
 
 ### Planeamiento de la ejecución
