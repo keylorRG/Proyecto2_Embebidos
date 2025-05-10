@@ -11,7 +11,6 @@ La empresa contratista necesita el diseño de un sistema embebido que se pueda i
 
 ### Gestión de los requerimientos
 
-### 📋 Tabla de Requerimientos del Sistema
 
 | ID      | Tipo         | Descripción                                                                                                                        | Justificación                                                                                         | Prioridad |
 |---------|--------------|------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|-----------|
