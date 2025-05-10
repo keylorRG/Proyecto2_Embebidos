@@ -70,13 +70,13 @@ A nivel de archivo local.config, es necesario llamar las dependencias necesarias
 
 Fases: 
 
-Integración de la lista de dependencias en el flujo de trabajo de Yocto Proyect para la contrución de la imagen a la medida para la Raspberry Pi 5. 
+Integración de la lista de dependencias en el flujo de trabajo de Yocto Proyect para la construcción de la imagen a la medida para la Raspberry Pi 5. 
 
-Conexión física de hardware: raspberry Pi 5, camara y fuente de alimentación. 
+Conexión física de hardware: raspberry Pi 5, cámara y fuente de alimentación. 
 
 Pruebas: válidar que la imagen, corriendo en el raspberry Pi 5 detecte correctamente el periferico de la camara. Validar que esté capturando correctamente el video hacia el usuario. Corroborar que el modelo de inferencia para las emociones esté generando clasificaciones. Verificar que el modelo clasifique correctamente. 
 
-Tras la fase de pruebas, se propone realizar una aplicación que reuna los resultados de la clasificación y los almacene ya sea localmente, o en un servidor remoto ára posterior análisis de los datos. 
+Tras la fase de pruebas, se propone realizar una aplicación que reuna los resultados de la clasificación y los almacene ya sea localmente, o en un servidor remoto para posterior análisis de los datos. 
 
 
 ### Planeamiento de la ejecución
