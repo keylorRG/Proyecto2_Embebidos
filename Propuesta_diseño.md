@@ -68,15 +68,26 @@ A nivel de archivo local.config, es necesario llamar las dependencias necesarias
 
 ![image](./images/Arquitectura_integracion.png)
 
-Fases: 
+Fase de desarrollo
 
-Integración de la lista de dependencias en el flujo de trabajo de Yocto Proyect para la construcción de la imagen a la medida para la Raspberry Pi 5. 
+1. Desarrollo de la imagen base
+Se  integran la lista de dependencias en el flujo de trabajo de Yocto Proyect para la construcción de la imagen a la medida para la Raspberry Pi 5, contemplando las meta-layers, modificaciones en el archivo local.conf así como las dependencias necesarias para tener los drivers para la cámara.
 
-Conexión física de hardware: raspberry Pi 5, cámara y fuente de alimentación. 
+2. Desarrollo de la aplicación
+Con los resultados del moldelo de clasificación, los resultados deben ser procesados y almacenados local o remotamente. Debe existir un layer personalizada para este caso.
 
-Pruebas: válidar que la imagen, corriendo en el raspberry Pi 5 detecte correctamente el periferico de la camara. Validar que esté capturando correctamente el video hacia el usuario. Corroborar que el modelo de inferencia para las emociones esté generando clasificaciones. Verificar que el modelo clasifique correctamente. 
+3. Building de la imagen
+Se construye la imagen y se solucionan los errores de construcción.
 
-Tras la fase de pruebas, se propone realizar una aplicación que reuna los resultados de la clasificación y los almacene ya sea localmente, o en un servidor remoto para posterior análisis de los datos. 
+4. Verificación del modelo y aplicación
+Verifcar y validar la correcta clasficación de emociones para un video de prueba cargado localemnte en la imagen. Si existen errores, regresar a punto 1 o 2. 
+
+5. Cargado de la imagen y conexiones físicas
+Se carga la imagen en la rasberry Pi 5. Además se hace la conexión de la cámara y se prueba con la fuente de alimentación. 
+
+6. Validar que la imagen se cargue correctamente sobre la Raspberry Pi 5 y detecte correctamente el periférico de la cámara.
+
+7. Comprobar que el modelo siga clasificando correctamente, esta vez, con la fuente de video de la cámara y validar la aplicación. Si existen errores iterar al proceso 2,3 y 5, para repetir la prueba de este punto 7. 
 
 
 ### Planeamiento de la ejecución
