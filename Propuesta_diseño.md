@@ -39,7 +39,7 @@ Disipación de calor: es necesario verificar la temperatura de sistema durante f
 
 ### Arquitectura del sistema propuesto
 
-![image] (images/arquitectura.png)
+![image] (images/Arquitectura.jpeg)
 
 ### Análisis de dependencias
 
