@@ -58,6 +58,11 @@ Este enfoque permite construir un sistema distribuido, escalable y autónomo, ca
 - El espectador es captado por la cámara.
 - El sistema analiza su expresión facial utilizando el modelo de detección de emociones.
 - El resultado es clasificado y almacenado localmente con marca temporal.
+- El resultado es analizado y se realiza un informe de los datos obtenidos.
+
+  
+![Captura de pantalla 2025-05-14 201345](https://github.com/user-attachments/assets/89c1d4ca-57a7-44b3-8a0d-144e5ce5a54f)
+
 
 ---
 
@@ -72,6 +77,9 @@ Desde el punto de vista funcional, el sistema está compuesto por varios módulo
 - **Comunicación con servidor (opcional):** si se habilita esta función, el sistema puede enviar los datos a una unidad centralizada para realizar un análisis global, visualización o generación de estadísticas.
 
 Cada una de estas funciones se encapsula en módulos de software independientes, lo que facilita el mantenimiento, la escalabilidad y la integración con otros sistemas. La arquitectura propuesta busca un equilibrio entre procesamiento local eficiente y posibilidad de expansión hacia entornos distribuidos.
+
+![Captura de pantalla 2025-05-14 201507](https://github.com/user-attachments/assets/e5fbd2f9-7a16-4f41-af2c-2f6581de5961)
+
 
 
 ### Arquitectura del sistema propuesto
