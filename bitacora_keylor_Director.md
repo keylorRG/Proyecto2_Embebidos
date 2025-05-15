@@ -9,3 +9,11 @@
 #### Viernes 9 de mayo: 
 
 - Se conversó sobre los avances de cada uno para verificar su cumplimiento. 
+
+#### Martes 13 de mayo: 
+
+- Se solicitó realizar los avances al repositorio en github. 
+
+#### Miércoles 
+
+- Se revisaron las vistas funcionales.
