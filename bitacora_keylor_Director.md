@@ -14,6 +14,19 @@
 
 - Se solicitó realizar los avances al repositorio en github. 
 
-#### Miércoles 
+#### Miércoles 14 de mayo
 
 - Se revisaron las vistas funcionales.
+
+#### Viernes 16 de mayo
+
+- Se solicitó la búsqueda de un modelo para el sistema de clasificación de emociones.
+
+#### Jueves 22 de mayo 
+
+- Se solicitó comenzar a desarrollar una interfaz web.
+
+#### Viernes 23 de mayo
+
+- Se informó sobre el mismatch de versiones de pyhton con Scarthgap.
+
