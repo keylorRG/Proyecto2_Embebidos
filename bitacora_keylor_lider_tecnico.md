@@ -22,9 +22,12 @@
 #### Sábado 24 de mayo
 
 - Se hizo el cambio a la versión Kirstone.
+- Se probó y verificaron las versioón de python del interprete de tensowflow-lite y la versión base de python: no hubo problemas de mismatch (ambos en versión 3.10).
+- Se probó el modelo de detección.  
 #### Domingo 25 de mayo 
 
 - Se hizo la meta-layer personalizada.
 - Se intentó mejorar el modeo, pues el entregado por la compañera solo funciona con imagenes de caras, se debe usar un modelo que detecta caras y recorte la imagen de la cara y la reescale a 48x48 para usar ahora sí, dicho modelo.
 - Se mejoró el modelo añadiendo un preprocesamiento para detectar el rostro y hacer recorte del frame. 
-  
+- Probó el modelo optimizado.
+- Se generó la meta - layer personalizada. 
