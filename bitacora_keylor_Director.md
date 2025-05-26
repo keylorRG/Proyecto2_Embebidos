@@ -29,4 +29,13 @@
 #### Viernes 23 de mayo
 
 - Se informó sobre el mismatch de versiones de pyhton con Scarthgap.
+- Se consultó sobre el avance en la interfaz web (en espera de la interfaz)
 
+#### Sábado 24 de mayo:  
+
+- Se volvió a solicitar la interfaz web. (en espera de la interfaz)
+
+#### Domingo 25 de mayo: 
+
+- Se consultó sobre el estado de la interfaz web (se recibió la interfaz wwb).
+- Se solicitaron cambios a la interfaz web por errores detectados).
