@@ -19,6 +19,10 @@
 
 - Se hicieron pruebas con el modelo proporcionado, sin embargo, el interprete de python que trae poky era el 3.12.9 (scarthap 5.0) y el interprete de meta tensorflow fue compilado para la versión de pyhton 3.11, por lo que no fue posible correr el modelo. 
 
+#### Viernes 23 de mayo: 
+
+- Se hicieron esfuerzos por corregir las versionesde python, sin embargo, no hubo éxito.
+  
 #### Sábado 24 de mayo
 
 - Se hizo el cambio a la versión Kirstone.
