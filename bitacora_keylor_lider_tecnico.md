@@ -25,5 +25,6 @@
 #### Domingo 25 de mayo 
 
 - Se hizo la meta-layer personalizada.
-- Se intentó mejorar el modeo, pues el entregado por la compañera solo funciona con imagenes de caras, se debe usar un modelo que detecta caras y recorte la imagen de la cara y la reescale a 48x48 para usar ahora sí, dicho modelo. 
+- Se intentó mejorar el modeo, pues el entregado por la compañera solo funciona con imagenes de caras, se debe usar un modelo que detecta caras y recorte la imagen de la cara y la reescale a 48x48 para usar ahora sí, dicho modelo.
+- Se mejoró el modelo añadiendo un preprocesamiento para detectar el rostro y hacer recorte del frame. 
   
