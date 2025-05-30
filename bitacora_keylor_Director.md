@@ -39,3 +39,12 @@
 
 - Se consultó sobre el estado de la interfaz web (se recibió la interfaz wwb).
 - Se solicitaron cambios a la interfaz web por errores detectados).
+
+#### Lunes 26 de mayo: 
+
+- Se acordó realizar una revisión de la interfaz para el día miércoles 28 de mayo para validas las correciones de Paula.
+
+#### Miércoles 28 de mayo: 
+
+- Se revisó la interfaz, sin embargo, seguía teniendo los mismos problemas, por lo que se solicitó nuevamente las correcciones.
+
