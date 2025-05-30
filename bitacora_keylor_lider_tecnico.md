@@ -35,3 +35,13 @@
 - Se mejoró el modelo añadiendo un preprocesamiento para detectar el rostro y hacer recorte del frame. 
 - Probó el modelo optimizado.
 - Se generó la meta - layer personalizada. 
+
+#### Miércoles 28 de mayo: 
+
+- Se probó la interfazÑ esta arranca el modelo de detección, pero no logra matar el proceso que corre python, es decir, nunca cierra el programa y el archivo csv no se genera.
+- La transmisión sigue siendo de la camara del host, aunque se habia solicitado que se mostrara un video corto, según los requerimientos del proyecto.
+
+#### Viernes 30 de mayo: 
+
+- se revisó la interfaz y se descargó un video corto demostrativo. La interfaz mata el proceso con kill $(pgrep python).
+- Se simplicó la interfaz, ya que cargar csv{ no hacía nada.
