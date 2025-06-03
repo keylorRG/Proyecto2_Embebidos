@@ -11,8 +11,6 @@
 
 ## Actividades Realizadas
 
-
-
 | Fecha           | Actividad                                                             | Producto generado                             | Problemas encontrados            | Solución / Referencias consultadas        |
 |-----------------|-----------------------------------------------------------------------|----------------------------------------------|----------------------------------|--------------------------------------------|
 | 18-abr-2025     | Búsqueda y análisis de modelos para reconocimiento facial y expresión emocional basados en Intel DL Streamer | Informe de modelos potenciales                | Selección del modelo óptimo       | Documentación Intel DL Streamer y OpenVINO |
@@ -32,7 +30,7 @@
 | 01-may a 01-jun-2025 | Supervisión y validación de integración DL Streamer, interfaz y protocolos | Informe de supervisión y validación            | Problemas de estabilidad          | Ajustes basados en pruebas y revisiones                   |
 | 01-jun-2025     | Validación de mecanismos para finalizar procesos con comandos específicos | Confirmación de funcionamiento correcto        | Manejo incorrecto de procesos     | Uso de comandos kill PID en lugar de pkill               |
 | 01-jun-2025     | Revisión de documentación técnica y resultados para asegurar calidad y cumplimiento | Informe de revisión documental                  | Inconsistencias o falta de claridad | Retroalimentación para mejoras                            |
-
+| 02-jun-2025     | Defensa del proyecto 
 ---
 
 ## Observaciones generales
