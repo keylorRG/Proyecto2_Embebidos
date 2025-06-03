@@ -37,3 +37,9 @@
 
 - Se identificaron fuentes sólidas para justificar el uso de procesamiento en el borde (EdgeAI) en ambientes sensibles como salas de cine.
 - Se recomendó el uso de modelos optimizados para hardware limitado, como Raspberry Pi.
+- - Se logró una exhaustiva revisión bibliográfica y técnica, asegurando una base sólida para el desarrollo del modelo y su integración.
+- La versión TensorFlow Lite desarrollada permitió optimizar el modelo para dispositivos embebidos, facilitando su implementación en la Raspberry Pi.
+- Las pruebas de accuracy y error se realizaron rigurosamente, garantizando la calidad del modelo final.
+- La integración de la interfaz con video y datos CSV fue compleja, pero se implementó un protocolo robusto para asegurar la sincronización y confiabilidad.
+- El manejo de datos en tiempo real y la comunicación entre dispositivos representaron un reto que se superó con ajustes en el protocolo y pruebas iterativas.
+- La documentación fue completa y clara, facilitando la comprensión del proceso y resultados.
