@@ -33,5 +33,5 @@
 - La revisión documental apoyó el cumplimiento de estándares académicos y técnicos, mejorando la presentación final.
 - La comunicación efectiva con el equipo permitió resolver problemas a tiempo y mantener el proyecto dentro de los plazos establecidos.
 - La defensa del proyecto evidenció un buen dominio del tema y preparación adecuada.
-- 
+
 
