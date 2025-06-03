@@ -27,3 +27,10 @@
 - El equipo ha cumplido con los hitos iniciales del proyecto según lo planeado.
 - El documento preliminar cumple con los requisitos establecidos en la rúbrica.
 - Se recomienda mantener la misma dinámica colaborativa para las siguientes etapas.
+- Se realizó una revisión minuciosa y constante del desarrollo, identificando y reportando inconsistencias para mejorar la calidad técnica.
+- La supervisión de la integración de DL Streamer y la interfaz contribuyó a la estabilidad del sistema.
+- La validación de comandos para el control de procesos garantizó una operación más segura y controlada del software.
+- La revisión documental apoyó el cumplimiento de estándares académicos y técnicos, mejorando la presentación final.
+- La comunicación efectiva con el equipo permitió resolver problemas a tiempo y mantener el proyecto dentro de los plazos establecidos.
+- La defensa del proyecto evidenció un buen dominio del tema y preparación adecuada.
+
